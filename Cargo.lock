@@ -3,5 +3,16 @@
 version = 3
 
 [[package]]
-name = "mc_rs"
+name = "chat"
+version = "0.1.0"
+
+[[package]]
+name = "launcher"
+version = "0.1.0"
+dependencies = [
+ "uiml_parser",
+]
+
+[[package]]
+name = "uiml_parser"
 version = "0.1.0"

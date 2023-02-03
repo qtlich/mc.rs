@@ -1,11 +1,4 @@
-[package]
-name = "mc_rs"
+[workspace]
+name = "mc.rs"
 version = "0.1.0"
-edition = "2021"
-
-[[bin]]
-name = "mc_rs"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+members = ["chat", "launcher","uiml_parser"] #, "files_manager"]
